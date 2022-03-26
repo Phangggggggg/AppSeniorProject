@@ -4,6 +4,11 @@ import MemoriesPage from '../pages/MemoriesPage.vue';
 import LoginPage from '../pages/LoginPage.vue'
 import RegisPage from '../pages/RegisterationPage.vue'
 import StartPage from '../pages/StartPage.vue'
+import IntroPage from '../pages/IntroductionPage.vue'
+import InstruPage from '../pages/InstructionPage.vue'
+import ArticlePage from "../pages/ArticlePage.vue"; 
+import ProfilePage from "../pages/ProfilePage.vue"; 
+
 const routes = [
   {
     path: '/',
@@ -29,6 +34,22 @@ const routes = [
   {
     path: '/startPage',
     component: StartPage
+  },
+  {
+    path: '/introPage',
+    component: IntroPage
+  },
+  {
+    path: '/instruPage',
+    component: InstruPage
+  },
+  {
+    path: "/articles",
+    component: ArticlePage,
+  },
+  {
+    path: "/profile",
+    component: ProfilePage,
   },
 ]
 

@@ -4,9 +4,7 @@
 
          <ion-content> 
             <img src="assets/chick-chick.png" class="center">
-            <h1> KAW-NA-KAI </h1>
-            <h3> ( ข่าว-หน้า-ไก่ ) </h3>
-
+            <h1> OPINION-ZERO </h1>
          </ion-content>
 
     </ion-page> 
