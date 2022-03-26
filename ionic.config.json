@@ -1,0 +1,7 @@
+{
+  "name": "SeniorPro",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}

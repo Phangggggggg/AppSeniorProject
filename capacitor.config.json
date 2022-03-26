@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "SeniorPro",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
