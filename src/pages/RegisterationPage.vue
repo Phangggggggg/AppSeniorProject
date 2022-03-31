@@ -28,7 +28,7 @@
                         </ion-item>
                     </div>
                     <div padding>
-                      <ion-button  size="large" type="submit" expand="full">Register</ion-button>
+                      <ion-button  @click="ToLogin()" size="large" type="submit" expand="full">Register</ion-button>
                     </div>
                     <div  class="router">
                       <router-link to="/loginPage">Sign in</router-link>
@@ -75,7 +75,12 @@ export default {
     addIcons({
       'create-outline': createOutline,
     });
-  }
+  },
+  methods: {
+    ToLogin(){
+      this.$router.push('/loginPage'); 
+      }
+    }
 };
 </script>
 

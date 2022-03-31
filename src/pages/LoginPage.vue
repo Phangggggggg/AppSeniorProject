@@ -29,7 +29,7 @@
                 <ion-input 
                   name="name"
                   type="text"
-                  placeholder="Name"
+                  placeholder="Username"
                   required
                   font-family="Georgia"
                 ></ion-input>
@@ -42,18 +42,9 @@
                   required
                 ></ion-input>
               </ion-item>
-              <ion-item>
-                <ion-input
-                  name="confirm"
-                  type="password"
-                  placeholder="Password again"
-                  required
-                ></ion-input>
-              </ion-item>
             </div>
             <div padding>
-              <ion-button size="large" type="submit" expand="block" font-family="Georgia">Login</ion-button
-              >
+              <ion-button @click="goToHomePage()" size="large" type="submit" expand="block" font-family="Georgia">Login</ion-button>
             </div> 
             <div  class="router">
               <router-link to="/regisPage">Sign up</router-link>
@@ -100,8 +91,14 @@ export default {
     addIcons({
       'person-circle-outline': personCircleOutline,
     });
-  }
-};
+  },
+
+  methods: {
+    goToHomePage(){
+      this.$router.push('/introPage'); 
+      }
+    }
+  };
 </script>
 
 <style scoped>
